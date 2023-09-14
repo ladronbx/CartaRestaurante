@@ -1,0 +1,23 @@
+body{
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+video{
+    filter: grayscale(100%);
+    width: 100vw;
+    z-index: -4;
+}
+.barra{
+    background-color: black;
+}
+
+.nav-link{
+    font-size: 1rem;
+}
+
+.texto{
+
+
+}
