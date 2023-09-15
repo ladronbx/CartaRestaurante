@@ -80,9 +80,17 @@ Propiedades cabecera que no decido si poner o no.
 
 .card-body {
     font-size: 1em; 
+}
 
+.card-title{
+    font-size: 1.7em;
 }
 
 .precio{
-    font-size: 2em;
+    font-size: 1.5em;
 }
+
+.productos{
+    margin: 1.5em 0em 1.5em 0em;
+}
+
