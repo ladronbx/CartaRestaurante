@@ -28,12 +28,20 @@ video{
     padding: 0;
     background-color: black;
     color: aliceblue;
-
-
 }
 
-.img-texto{
-    width: 50vw;
+.textos{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2em;
+    padding: 2em;
+}
+
+#img-texto{
+    width: 45vw;
+    padding: 0em 2em 0em 2em;
+
 }
 
 .text-center{
