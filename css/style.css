@@ -1,23 +1,24 @@
-body{
+body {
     width: 100vw;
 
     margin: 0;
     padding: 0;
     background-color: black;
 }
-/*Propiedades Barra Nav*/
-nav{
+
+/*Estilos Barra Nav*/
+nav {
     background-color: black;
     width: 100vw;
 }
 
-.nav-link{
+.nav-link {
     font-size: 1rem;
 }
 
-/*Propiedades index.html*/
+/*Estilos index.html*/
 
-video{
+video {
     filter: grayscale(100%);
     margin: 0;
     padding: 0;
@@ -26,28 +27,28 @@ video{
 }
 
 
-.texto{
+.texto {
     margin: 0;
     padding: 0;
     background-color: black;
     color: aliceblue;
 }
 
-.textos{
-    display:flex;
+.textos {
+    display: flex;
     justify-content: center;
     align-items: center;
     margin: 2em;
     padding: 2em;
 }
 
-#img-texto{
+#img-texto {
     width: 45vw;
     padding: 0em 2em 0em 2em;
 
 }
 
-.text-center{
+.text-center {
     padding: 1.5em;
     font-size: 3em;
     background-color: black;
@@ -71,7 +72,7 @@ Propiedades cabecera que no decido si poner o no.
 }
 */
 
-/*Propiedades cards*/
+/*Estilos cards*/
 
 .card {
     margin: 0em;
@@ -79,18 +80,80 @@ Propiedades cabecera que no decido si poner o no.
 }
 
 .card-body {
-    font-size: 1em; 
+    font-size: 1em;
 }
 
-.card-title{
+.card-title {
     font-size: 1.7em;
 }
 
-.precio{
+.precio {
     font-size: 1.5em;
 }
 
-.productos{
+.productos {
     margin: 1.5em 0em 1.5em 0em;
 }
 
+
+/*Estilos sección Reservas*/
+
+.form {
+    padding-top: 15%;
+    padding-bottom: 15%;
+    text-align: center;
+}
+
+.reserva {
+    padding: 1em;
+    background-color: #fff;
+    border-radius: 1em;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+form {
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 1em;
+}
+
+input {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 0.2em;
+    border: 0.2em solid #ccc;
+    border-radius: 0.5em;
+}
+
+button {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    margin-top: 1em;
+    padding: 1em 2em;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(44, 47, 44, 0.766);
+}
+
+p {
+    margin-top: 10px;
+}
+
+/*Estilos Sección Reserva*/
+
+.cabecera {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+}

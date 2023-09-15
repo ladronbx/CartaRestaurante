@@ -9,6 +9,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"></script>
 
+
     <!-- AÑADIR IMAGEN FAVICON -->
     <link rel="icon" type="image/svg" href="img/......." />
     <link rel="stylesheet" href="css/style.css">
@@ -18,7 +19,7 @@
 </head>
 
 <body>
-        <!-- IMPORTANTE!!!!!!!   RECUERDA AÑADIR DISEÑO RESPONSIVE -->
+    <!-- IMPORTANTE!!!!!!!   RECUERDA AÑADIR DISEÑO RESPONSIVE -->
     <div class="container-fluid">
         <div class="row">
             <nav class="navbar navbar-expand-lg navbar-dark bg-black">
@@ -50,11 +51,20 @@
             </nav>
         </div>
     </div>
-    <div class="container-fluid">
+
+
+    <div class="container-fluid cabecera ">
+        <div class="row cabecera">
+            <img id="img-cabecera" src="img/img-cabeceras/simple-japan.jpg" alt="Imagen menú tradicional Japonés" class="img-fluid">
+        </div>
+    </div>
+    
+
+
         <div class="texto container-fluid">
             <div class="row textos">
                 <div class="col-md-6">
-                    <img id="img-texto" src="img/imagen-texto-2.jpg" alt="Imagen menú tradicional Japonés">
+                    <img id="img-texto" src="img/img-cabeceras/flowers.jpg" alt="Imagen menú tradicional Japonés">
                 </div>
                 <div class="col-md-6">
                     <h2>Reserva tu Mesa</h2>
@@ -68,24 +78,39 @@
                 </div>
             </div>
 
-            <div class="row textos">
-                <div class="col-md-6">
-                    <h2>Menú Variado y Creativo</h2>
-                    <p>Explora nuestro extenso menú que abarca desde los clásicos rolls de sushi hasta creaciones únicas
-                        de
-                        la
-                        casa que te sorprenderán. Desde el sashimi delicadamente cortado hasta los platos calientes y
-                        las
-                        opciones vegetarianas, hay algo para satisfacer a todos los gustos. Además, ofrecemos opciones
-                        para
-                        llevar y servicio de entrega para que puedas disfrutar de Katana Sushi donde quiera que estés.
-                    </p>
-                </div>
-                <div class="col-md-6">
-                    <img id="img-texto" src="img/imagen-texto-3.jpeg" alt="Imagen menú tradicional Japonés">
-                </div>
+        </div>
+
+        <div class="container form">
+            <div class="row reserva">
+                <h2>RESERVA</h2>
+                <form action="index.html" method="GET">
+                    <label for="name">NOMBRE:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="lastname">APELLIDOS:</label>
+                    <input type="text" id="lastname" name="lastname" required>
+
+                    <label for="email">CORREO ELECTRÓNICO:</label>
+                    <input type="email" id="email" name="email" required>
+
+
+                    <div class="col-md-6">
+                        <label for="birthdate">FECHA DE RESERVA:</label>
+                        <input type="date" id="date" name="date" required>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="hour">HORA DE RESERVA:</label>
+                        <input type="time" id="hour" name="hour" required>
+                    </div>
+
+                    <button type="submit">RESERVA</button>
+                </form>
             </div>
         </div>
+
+
+
 </body>
 
 </html>
