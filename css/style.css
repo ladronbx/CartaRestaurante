@@ -5,7 +5,7 @@ body{
     padding: 0;
     background-color: black;
 }
-
+/*Propiedades Barra Nav*/
 nav{
     background-color: black;
     width: 100vw;
@@ -14,6 +14,8 @@ nav{
 .nav-link{
     font-size: 1rem;
 }
+
+/*Propiedades index.html*/
 
 video{
     filter: grayscale(100%);
@@ -52,6 +54,9 @@ video{
     color: rgb(128, 128, 128);
 }
 
+/*
+Propiedades cabecera que no decido si poner o no.
+
 .imgCabeceraVino{
     display: flex;
     justify-content: center;
@@ -64,7 +69,20 @@ video{
     margin: 0;
     filter: grayscale(100%);
 }
+*/
 
-#productoVino{
-    width: 40vh;
+/*Propiedades cards*/
+
+.card {
+    margin: 0em;
+    padding: 2em;
+}
+
+.card-body {
+    font-size: 1em; 
+
+}
+
+.precio{
+    font-size: 2em;
 }
