@@ -52,3 +52,19 @@ video{
     color: rgb(128, 128, 128);
 }
 
+.imgCabeceraVino{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(28, 26, 26);
+    width: 100vw;
+}
+
+#bebidaCabecera{
+    width: 50vh;
+    margin: 0;
+    filter: grayscale(100%);
+}
+
+#productoVino{
+    width: 40vh;
+}
