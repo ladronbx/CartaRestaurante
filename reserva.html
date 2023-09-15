@@ -55,59 +55,85 @@
 
     <div class="container-fluid cabecera ">
         <div class="row cabecera">
-            <img id="img-cabecera" src="img/img-cabeceras/simple-japan.jpg" alt="Imagen menú tradicional Japonés" class="img-fluid">
+            <img id="img-cabecera" src="img/img-cabeceras/simple-japan.jpg" alt="Imagen menú tradicional Japonés"
+                class="img-fluid">
         </div>
     </div>
-    
+
+    <div class="row reserva-cabecera">
+        <div class="text-center">¿DÓNDE ESTAMOS?</div>
+        <div id="sueca" class="text-center">Carrer de Sueca, 78 </div>
+        <div id="map"></div>
+    </div>
 
 
-        <div class="texto container-fluid">
-            <div class="row textos">
-                <div class="col-md-6">
-                    <img id="img-texto" src="img/img-cabeceras/flowers.jpg" alt="Imagen menú tradicional Japonés">
-                </div>
-                <div class="col-md-6">
-                    <h2>Reserva tu Mesa</h2>
-                    <p>Ven y descubre por qué Katana Sushi es el destino favorito de los amantes del sushi en Ruzafa.
-                        Haz tu
-                        reserva
-                        hoy mismo y déjanos llevar tus sentidos a un viaje gastronómico inolvidable. ¡Esperamos verte
-                        pronto
-                        en
-                        Katana Sushi!</p>
-                </div>
+
+
+    <div class="texto container-fluid">
+        <div class="row textos">
+            <div class="col-md-6">
+                <img id="img-texto" src="img/img-cabeceras/templo.jpg" alt="Imagen menú tradicional Japonés">
             </div>
-
-        </div>
-
-        <div class="container form">
-            <div class="row reserva">
-                <h2>RESERVA</h2>
-                <form action="index.html" method="GET">
-                    <label for="name">NOMBRE:</label>
-                    <input type="text" id="name" name="name" required>
-
-                    <label for="lastname">APELLIDOS:</label>
-                    <input type="text" id="lastname" name="lastname" required>
-
-                    <label for="email">CORREO ELECTRÓNICO:</label>
-                    <input type="email" id="email" name="email" required>
-
-
-                    <div class="col-md-6">
-                        <label for="birthdate">FECHA DE RESERVA:</label>
-                        <input type="date" id="date" name="date" required>
-                    </div>
-
-                    <div class="col-md-6">
-                        <label for="hour">HORA DE RESERVA:</label>
-                        <input type="time" id="hour" name="hour" required>
-                    </div>
-
-                    <button type="submit">RESERVA</button>
-                </form>
+            <div class="col-md-6">
+                <h2>Reserva tu Mesa</h2>
+                <p>Ven y descubre por qué Katana Sushi es el destino favorito de los amantes del sushi en Ruzafa.
+                    Haz tu
+                    reserva
+                    hoy mismo y déjanos llevar tus sentidos a un viaje gastronómico inolvidable. ¡Esperamos verte
+                    pronto
+                    en
+                    Katana Sushi!</p>
             </div>
         </div>
+
+    </div>
+
+    <div class="container form">
+        <div class="row reserva">
+            <h2>RESERVA</h2>
+            <form action="index.html" method="GET">
+                <label for="name">NOMBRE:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="lastname">APELLIDOS:</label>
+                <input type="text" id="lastname" name="lastname" required>
+
+                <label for="email">CORREO ELECTRÓNICO:</label>
+                <input type="email" id="email" name="email" required>
+
+
+                <div class="col-md-6">
+                    <label for="birthdate">FECHA DE RESERVA:</label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+
+                <div class="col-md-6">
+                    <label for="hour">HORA DE RESERVA:</label>
+                    <input type="time" id="hour" name="hour" required>
+                </div>
+
+                <button type="submit">RESERVA</button>
+            </form>
+        </div>
+    </div>
+
+
+
+    <!--Estos Scripts serían necesarios para poder incluir un mapa con bootstrap-->
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=TU_CLAVE_DE_API"></script>
+    <script>
+        function initMap() {
+            var map = new google.maps.Map(document.getElementById('map'), {
+                center: { lat: TU_LATITUD, lng: TU_LONGITUD }, // Reemplaza con las coordenadas de tu restaurante
+                zoom: TU_ZOOM // Establece el nivel de zoom deseado
+            });
+        }
+    </script>
+
+    <script>
+        google.maps.event.addDomListener(window, 'load', initMap);
+    </script>
 
 
 

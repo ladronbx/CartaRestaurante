@@ -39,7 +39,7 @@ video {
     justify-content: center;
     align-items: center;
     margin: 2em;
-    padding: 2em;
+    padding: 0em;
 }
 
 #img-texto {
@@ -54,6 +54,17 @@ video {
     background-color: black;
     color: rgb(128, 128, 128);
 }
+
+.reserva-cabecera{
+    display:flex;
+    justify-content: center;
+}
+
+#sueca{
+    padding: 0em 0em 3em 0em;
+    color: white;
+}
+
 
 /*
 Propiedades cabecera que no decido si poner o no.
