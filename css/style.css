@@ -55,6 +55,45 @@ video {
     color: rgb(128, 128, 128);
 }
 
+/* Media query para pantallas de 770px o menos */
+@media (max-width: 770px) {
+
+    h2{
+        font-size: 1.2em;
+        padding: 2em 0 0 0;
+    }
+
+    #img-acogedor{
+        padding-bottom: 4em;
+    }
+    
+    .textos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.1em;
+        margin: 2em;
+        padding-top: 6em;
+    }
+    
+    #img-texto {
+        width: 100%;
+        padding: 0em;
+    
+    }
+    
+    .text-center {
+        padding: 0.6em;
+        font-size: 1.2em;
+    }
+
+    #sueca{
+        padding: 0em 0em 3em 0em;
+        color: white;
+        font-size: 1em;
+    }
+}
+
 .reserva-cabecera{
     display:flex;
     justify-content: center;
@@ -65,9 +104,18 @@ video {
     color: white;
 }
 
+.reserva {
+    margin: 0.5em;
+    padding: 0.5em;
+    background-color: #fff;
+    border-radius: 1em;
+}
+
+
+
 
 /*
-Propiedades cabecera que no decido si poner o no.
+Estilos de cabecera que no decido si añadir o no.
 
 .imgCabeceraVino{
     display: flex;
