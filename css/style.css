@@ -92,6 +92,15 @@ video {
         color: white;
         font-size: 1em;
     }
+
+}
+.welcome{
+    margin-top: 3em
+}
+#japones{
+    font-size: 2em;
+    color: white;
+    text-align: center;
 }
 
 .reserva-cabecera{
@@ -135,7 +144,7 @@ Estilos de cabecera que no decido si añadir o no.
 
 .card {
     margin: 0em;
-    padding: 2em;
+    padding: 0.5em;
 }
 
 .card-body {
