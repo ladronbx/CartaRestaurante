@@ -6,6 +6,10 @@ body {
     background-color: black;
 }
 
+
+
+
+
 /*Estilos Barra Nav*/
 nav {
     background-color: black;
@@ -15,6 +19,12 @@ nav {
 .nav-link {
     font-size: 1rem;
 }
+
+
+
+
+
+
 
 /*Estilos index.html*/
 
@@ -26,6 +36,14 @@ video {
     height: auto;
 }
 
+.welcome{
+    margin-top: 3em
+}
+#japones{
+    font-size: 2em;
+    color: white;
+    text-align: center;
+}
 
 .texto {
     margin: 0;
@@ -55,92 +73,11 @@ video {
     color: rgb(128, 128, 128);
 }
 
-/* Media query para pantallas de 770px o menos */
-@media (max-width: 770px) {
-
-    h2{
-        font-size: 1.2em;
-        padding: 2em 0 0 0;
-    }
-
-    #img-acogedor{
-        padding-bottom: 4em;
-    }
-    
-    .textos {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 1.1em;
-        margin: 2em;
-        padding-top: 6em;
-    }
-    
-    #img-texto {
-        width: 100%;
-        padding: 0em;
-    
-    }
-    
-    .text-center {
-        padding: 0.6em;
-        font-size: 1.2em;
-    }
-
-    #sueca{
-        padding: 0em 0em 3em 0em;
-        color: white;
-        font-size: 1em;
-    }
-
-}
-.welcome{
-    margin-top: 3em
-}
-#japones{
-    font-size: 2em;
-    color: white;
-    text-align: center;
-}
-
-.reserva-cabecera{
-    display:flex;
-    justify-content: center;
-}
-
-#sueca{
-    padding: 0em 0em 3em 0em;
-    color: white;
-}
-
-.reserva {
-    margin: 0.5em;
-    padding: 0.5em;
-    background-color: #fff;
-    border-radius: 1em;
-}
 
 
 
 
-/*
-Estilos de cabecera que no decido si añadir o no.
-
-.imgCabeceraVino{
-    display: flex;
-    justify-content: center;
-    background-color: rgb(28, 26, 26);
-    width: 100vw;
-}
-
-#bebidaCabecera{
-    width: 50vh;
-    margin: 0;
-    filter: grayscale(100%);
-}
-*/
-
-/*Estilos cards*/
+/*Estilos cards para páginas sushi.html & vino.html */
 
 .card {
     margin: 0em;
@@ -164,7 +101,41 @@ Estilos de cabecera que no decido si añadir o no.
 }
 
 
-/*Estilos sección Reservas*/
+
+
+
+
+
+/*Estilos reservas.html*/
+
+.cabecera {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+}
+
+
+.reserva-cabecera{
+    display:flex;
+    justify-content: center;
+}
+
+#sueca{
+    padding: 0em 0em 3em 0em;
+    color: white;
+}
+
+.reserva {
+    margin: 0.5em;
+    padding: 0.5em;
+    background-color: #fff;
+    border-radius: 1em;
+}
+
+
+
+/*Estilos formulario Reservas*/
 
 .form {
     padding-top: 15%;
@@ -217,11 +188,75 @@ p {
     margin-top: 10px;
 }
 
-/*Estilos Sección Reserva*/
 
-.cabecera {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: auto;
+
+
+
+
+
+/* Media query para pantallas de 770px o menos */
+@media (max-width: 770px) {
+
+    h2{
+        font-size: 1.2em;
+        padding: 2em 0 0 0;
+    }
+
+    #img-acogedor{
+        padding-bottom: 4em;
+    }
+    
+    .textos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.1em;
+        margin: 2em;
+        padding-top: 6em;
+    }
+    
+    #img-texto {
+        width: 100%;
+        padding: 0em;
+    
+    }
+    
+    .text-center {
+        padding: 0.6em;
+        font-size: 1.2em;
+    }
+
+    #sueca{
+        padding: 0em 0em 3em 0em;
+        color: white;
+        font-size: 1em;
+    }
+
+    #producto{
+        margin: 0em;
+    }
+
 }
+
+
+
+
+
+
+
+/*
+Estilos de cabecera que no decido si añadir o no.
+
+.imgCabeceraVino{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(28, 26, 26);
+    width: 100vw;
+}
+
+#bebidaCabecera{
+    width: 50vh;
+    margin: 0;
+    filter: grayscale(100%);
+}
+*/
