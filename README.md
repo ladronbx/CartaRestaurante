@@ -1,12 +1,45 @@
 ![Cabecera](img/img-readme/cabecera-proyecto.png)
 
+---
+
 # Katana Sushi - Restaurante Japonés
 [Katana Sushi - Restaurante Japonés](https://ladronbx.github.io/)
 
-**Primer proyecto del Bootcamp Full Stack Developer Presencial en la academia GeeksHubs en Valencia**. 
-![Logo GeeksHubs](img/img-readme/geekhubs.png)
+**Primer proyecto del Bootcamp Full Stack Developer Presencial en la academia GeeksHubs en Valencia**
+
+
 Durante este proyecto, he aplicado los conocimientos adquiridos en la primera semana del Bootcamp, para crear una página web que representa a un restaurante japonés llamado **Katana Sushi**.
-A continuación, se describen las principales características:
+
+
+![Logo GeeksHubs](img/img-readme/geekhubs.png)
+
+---
+
+
+
+## Índice
+
+- [Desarrollado con](#desarrollado-con)
+- [Bootstrap](#bootstrap)
+- [Media Query](#media-query)
+- [Código Fuente](#código-fuente)
+- [Home - Página Principal](#home---página-principal)
+- [Carta Sushi y Carta Vino](#carta-sushi-y-carta-vino)
+  - [Tarjetas de Producto](#tarjetas-de-producto)
+  - [Diseño Responsivo](#diseño-responsivo)
+  - [Estilos Personalizados](#estilos-personalizados)
+  - [Facilidad de Mantenimiento](#facilidad-de-mantenimiento)
+- [Página de Reserva](#página-de-reserva)
+  - [Instrucciones para Reservar](#instrucciones-para-reservar)
+- [Sobre Nosotros](#sobre-nosotros)
+- [Instrucciones de Uso](#instrucciones-de-uso)
+- [Contribuciones](#contribuciones)
+- [Contacto](#contacto)
+- [Enlace Github Pages](#enlace-github-pages)
+
+
+
+
 
 ## Desarrollado con:
 
@@ -25,7 +58,10 @@ A continuación, se describen las principales características:
     
 - **Navbar personalizada**: Se ha creado una barra de navegación personalizada que incluye enlaces a diferentes secciones del sitio web. Esta barra de navegación se adapta automáticamente a diferentes tamaños de pantalla gracias a las clases proporcionadas por Bootstrap.
     
+    *Vista menú pantalla PC*
     ![Imagen MenuNav](img/img-readme/navbar.png)
+
+    *Vista menú en forma de burger para pantalla tablet o inferior*
     ![Imagen MenuNav](img/img-readme/menu-burger.png)
     
 - **Tarjetas de producto**: Las tarjetas que se utilizan para presentar los diferentes platos de sushi son componentes de Bootstrap que permiten mostrar de manera atractiva la información del producto, incluyendo una imagen, título, descripción y precio.
@@ -58,8 +94,9 @@ El código fuente del proyecto se encuentra organizado en varias páginas HTML y
 - `vinos.html`: Página que presenta la carta de vinos.
 - `reserva.html`: Página donde los usuarios pueden realizar reservas.
 - `about.html`: Página que proporciona información sobre el restaurante y su equipo.
-
-## Página Principal
+---
+#¿Cómo se compone la web?
+## Home - Página Principal
 
 ![Imagen menú](img/img-readme/menu-home.png)
 
@@ -76,7 +113,7 @@ El código fuente del proyecto se encuentra organizado en varias páginas HTML y
 
     ![Imagen Home 2](img/img-readme/home2.png)
 
-## Carta Sushi y Carta Vino : Desarrollado con Bootstrap
+## Carta Sushi y Carta Vino 
 
 El proyecto Katana Sushi ha sido desarrollado utilizando el framework de diseño web Bootstrap, y uno de los componentes destacados que he utilizado son las tarjetas (cards) proporcionadas por Bootstrap. Las tarjetas son elementos versátiles que me han permitido mostrar los platos de sushi de manera atractiva y organizada. A continuación proporciono más detalles sobre cómo se he integrado:
 
@@ -131,6 +168,7 @@ Puedes acceder a esta página de reserva haciendo clic en el enlace "Reserva" en
 
     ![Imagen About 3](img/img-readme/about3.png)
 
+---
 
 ## Instrucciones de Uso
 
@@ -141,6 +179,8 @@ Si deseas ejecutar el proyecto localmente, sigue estos pasos:
 1. Descarga todas las carpetas y archivos del repositorio.
 2. Abre el archivo `index.html` en tu navegador web.
 
+---
+
 ## Contribuciones
 
 Este proyecto es público y las contribuciones son bienvenidas. Si deseas contribuir, sigue estos pasos:
@@ -149,6 +189,8 @@ Este proyecto es público y las contribuciones son bienvenidas. Si deseas contri
 2. Crea una nueva rama para tu contribución.
 3. Realiza tus cambios y mejoras.
 4. Envía una solicitud de extracción (pull request) para revisar y fusionar tus cambios.
+
+---
 
 ## Contacto
 
