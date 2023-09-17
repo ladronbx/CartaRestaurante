@@ -309,9 +309,13 @@ p {
     justify-content: start;
     color: rgb(128, 128, 128);
     background-color: rgb(255, 255, 255);
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em; 
 
 }
 .footer{
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
     background-color: rgb(255, 255, 255);
     color: rgb(128, 128, 128);
 

@@ -126,7 +126,24 @@ El proyecto Katana Sushi ha sido desarrollado utilizando el framework de diseño
 
 ### **Página de Reserva** 📅 
 
-La página de reserva de Katana Sushi permite a los clientes realizar reservas para disfrutar de una experiencia culinaria única. Aquí encontrarás un formulario sencillo que te permite seleccionar la fecha y la hora de tu reserva.
+La página de reserva de Katana Sushi permite a los clientes realizar reservas para disfrutar de una experiencia culinaria única. 
+
+**Mapa de Ubicación** 🗺️
+Se encuentra incluido un mapa que te permite ver la ubicación exacta del restaurante. Puedes encontrar el mapa a continuación:
+
+<iframe id="map"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.944035110422!2d-0.3601145241204721!3d39.47059301268056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6048bddd00115b%3A0xb2c3d48844a1cd9f!2sC.%20Chile%2C%203%2C%2046021%20Valencia!5e0!3m2!1ses!2ses!4v1694977541134!5m2!1ses!2ses"
+    style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+<div id="mapa"><a
+        href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.944035110422!2d-0.3601145241204721!3d39.47059301268056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6048bddd00115b%3A0xb2c3d48844a1cd9f!2sC.%20Chile%2C%203%2C%2046021%20Valencia!5e0!3m2!1ses!2ses!4v1694977541134!5m2!1ses!2ses"
+        target="_blank">
+        Ver en Google Maps
+    </a></div>
+
+
+**Formulario** 
+También encontrarás un formulario sencillo que te permite seleccionar la fecha y la hora de tu reserva.
 ![Imagen Reserva 1](img/img-readme/reserva1.png)
 ![Imagen Reserva 2](img/img-readme/reserva2.png)
 ![Imagen Reserva 3](img/img-readme/form.png)
@@ -143,7 +160,6 @@ Puedes acceder a esta página de reserva haciendo clic en el enlace "Reserva" en
 4. Elije la hora de tu reserva utilizando el campo de hora.
 5. Haz clic en el botón "Reserva" para completar el proceso.
 
-⚠️ **Nota**: Actualmente, el proyecto no incluye un mapa de ubicación de Google Maps. Sin embargo, esta característica podría agregarse en futuras actualizaciones del proyecto una vez que se adquiera el conocimiento necesario. ⚠️
 
 
 
