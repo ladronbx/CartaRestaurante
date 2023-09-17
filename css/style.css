@@ -126,12 +126,14 @@ video {
 .reserva-cabecera{
     display:flex;
     justify-content: center;
+    padding-bottom: 8em;
+
 }
 
 #calle{
 
     text-align: center;
-    font-size: 5em;
+    font-size: 4em;
     font-family: 'Nanum Brush Script','Finger Paint', cursive;
     padding: 3em 0em 0em 0em;
     color: white;
@@ -146,6 +148,7 @@ video {
 
 
 #map{
+    margin: 1em;
     padding: 0em;
     width: 40em;
     height: 20em;
@@ -155,10 +158,15 @@ video {
 #mapa{
     display: flex;
     justify-content: center;
+
 }
 #mapa a{
     text-decoration: none;
     color: white;
+}
+
+.texto-reservas{
+    margin-top: 10em;
 }
 
 
@@ -262,6 +270,23 @@ p {
 
     #producto{
         margin: 0em;
+    }
+
+    #calle{
+
+        text-align: center;
+        font-size: 2em;
+        font-family: 'Nanum Brush Script','Finger Paint', cursive;
+        padding: 3em 0em 0em 0em;
+        color: white;
+    }
+
+    #map{
+        margin: 2em;
+        padding: 0em;
+        width: 15em;
+        height: 20em;
+        border-radius: 2em;
     }
 
 }
