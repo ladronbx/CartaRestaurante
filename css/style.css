@@ -128,8 +128,12 @@ video {
     justify-content: center;
 }
 
-#sueca{
-    padding: 0em 0em 3em 0em;
+#calle{
+
+    text-align: center;
+    font-size: 5em;
+    font-family: 'Nanum Brush Script','Finger Paint', cursive;
+    padding: 3em 0em 0em 0em;
     color: white;
 }
 
@@ -140,6 +144,22 @@ video {
     border-radius: 1em;
 }
 
+
+#map{
+    padding: 0em;
+    width: 40em;
+    height: 20em;
+    border-radius: 2em;
+}
+
+#mapa{
+    display: flex;
+    justify-content: center;
+}
+#mapa a{
+    text-decoration: none;
+    color: white;
+}
 
 
 /*Estilos formulario Reservas*/
@@ -257,16 +277,18 @@ p {
 }
 
 .rrss{
+    font-family: 'Amatic SC', Courier, monospace;
+    font-weight: bolder;
     padding-top: 1.5em;
     display: flex;
     justify-content: start;
-    color: grey;
+    color: rgb(128, 128, 128);
     background-color: rgb(255, 255, 255);
 
 }
 .footer{
     background-color: rgb(255, 255, 255);
-    color: grey;
+    color: rgb(128, 128, 128);
 
     display: flex;
     justify-content: end;

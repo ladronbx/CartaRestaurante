@@ -11,6 +11,7 @@
 Durante este proyecto, he aplicado los conocimientos adquiridos en la primera semana del Bootcamp, para crear una página web que representa a un restaurante japonés llamado **Katana Sushi**.
 
 
+
 ![Logo GeeksHubs](img/img-readme/geekhubs.png)
 
 ---
