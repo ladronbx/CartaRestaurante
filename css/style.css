@@ -1,6 +1,7 @@
 body {
     width: 100vw;
-    font-family: 'Crimson Pro','Playfair Display',sans-serif;
+    font-family: 'Nunito', arial;
+    
     margin: 0;
     padding: 0;
     background-color: black;
@@ -24,9 +25,6 @@ nav {
 
 
 
-
-
-
 /*Estilos index.html*/
 
 video {
@@ -38,10 +36,9 @@ video {
 }
 
 .welcome{
-    margin-top: 3em
+    margin-top: 1em
 }
 #japones{
-    font-family: 'Noto Sans JP', sans-serif;
     font-size: 2em;
     color: white;
     text-align: center;
@@ -69,7 +66,14 @@ video {
 
 }
 
+#tituloBienvenido{
+    font-family: 'Nanum Brush Script','Finger Paint', cursive;
+}
+
 .text-center {
+    letter-spacing: 0.2em;
+    font-weight: bold;
+    font-family: 'Amatic SC','Nunito', cursive;
     padding: 1.5em;
     font-size: 3em;
     background-color: black;
@@ -198,8 +202,8 @@ p {
 
 
 
-/* Media query para pantallas de 770px o menos */
-@media (max-width: 770px) {
+/* Media query para pantallas de 1100px o menos */
+@media (max-width: 1100px) {
 
     h2{
         font-size: 1.2em;
@@ -226,8 +230,8 @@ p {
     }
     
     .text-center {
-        padding: 0.6em;
-        font-size: 1.2em;
+        padding: 0.4em;
+        font-size: 1.3em;
     }
 
     #sueca{
@@ -241,6 +245,7 @@ p {
     }
 
 }
+
 
 
 
