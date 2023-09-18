@@ -131,11 +131,7 @@ video {
 
 }
 
-.carrusel{
-    display: flex;
-    justify-content: center;
-    width: 40em;
-}
+
 
 #calle{
 
@@ -235,6 +231,15 @@ p {
 
 /*Estilos carrusel*/
 
+.carrusel{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    margin-bottom: 4em;
+
+}
+
+
 #fondoCarrusel{
     background-color:rgba(0, 0, 0, 0.43); 
     margin: 0em;
@@ -311,6 +316,10 @@ p {
         width: 15em;
         height: 20em;
         border-radius: 2em;
+    }
+
+    .carrusel{
+        width: 60%;
     }
 }
 
