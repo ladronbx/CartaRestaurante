@@ -37,13 +37,13 @@ Durante este proyecto, he aplicado los conocimientos adquiridos en la primera se
 
 
 
-## Tecnologías utilizadas: 🛠️
+## Tecnologías utilizadas:
 
 - [HTML5](https://lenguajehtml.com/html/)
 - [CSS3](https://desarrolloweb.com/manuales/css3.html)
 - [Bootstrap](https://getbootstrap.com/)
 
-## Bootstrap 📊 
+## Bootstrap
 
 **El proyecto de Katana Sushi se ha desarrollado utilizando el framework de diseño web Bootstrap.**
  Bootstrap es una herramienta de código abierto que ha facilitado la creación de una página web receptiva y estilizada. A continuación, se destacan algunas de las formas en que Bootstrap ha sido utilizado en el proyecto:
@@ -69,7 +69,7 @@ Durante este proyecto, he aplicado los conocimientos adquiridos en la primera se
 - **Estilos personalizados**: Aunque Bootstrap proporciona una serie de estilos predeterminados, también se han aplicado estilos personalizados para adaptar la apariencia general del sitio web al tema y la identidad de Katana Sushi.
 
 
-### **Media Query** 📱 
+### **Media Query**
 
 El proyecto incluye media queries para garantizar que la página web se vea y funcione correctamente en pantallas de diferentes tamaños. A continuación, se describen las modificaciones realizadas para pantallas de 1100px o menos:
 
@@ -81,7 +81,7 @@ El proyecto incluye media queries para garantizar que la página web se vea y fu
     ![Imagen responsive 2](img/img-readme/ipad.png)
     
 
-## Código Fuente  🧩 
+## Código Fuente
 
 El código fuente del proyecto se encuentra organizado en varias páginas HTML y archivos CSS. A continuación, se enumeran las páginas principales y los archivos asociados:
 
@@ -92,7 +92,7 @@ El código fuente del proyecto se encuentra organizado en varias páginas HTML y
 - `about.html`: Página que proporciona información sobre el restaurante y su equipo.
 ---
 #¿Cómo se compone la web?
-## Home - Página Principal 🏠 
+## Home - Página Principal
 
 ![Imagen menú](img/img-readme/menu-home.png)
 
@@ -109,7 +109,7 @@ El código fuente del proyecto se encuentra organizado en varias páginas HTML y
 
     ![Imagen Home 2](img/img-readme/home2.png)
 
-## Carta Sushi y Carta Vino 🍣🍷
+## Carta Sushi y Carta Vino
 
 El proyecto Katana Sushi ha sido desarrollado utilizando el framework de diseño web Bootstrap, y uno de los componentes destacados que he utilizado son las tarjetas (cards) proporcionadas por Bootstrap. Las tarjetas son elementos versátiles que me han permitido mostrar los platos de sushi de manera atractiva y organizada. A continuación proporciono más detalles sobre cómo se he integrado:
 
@@ -124,11 +124,11 @@ El proyecto Katana Sushi ha sido desarrollado utilizando el framework de diseño
 - **Estilos Personalizados**: Aunque he utilizado las tarjetas de Bootstrap como punto de partida, he aplicado estilos personalizados para alinearlas con la identidad y el tema de **Katana Sushi**. Esto ha permitido que se logre un diseño único y atractivo para cada tarjeta de producto.
 - **Facilidad de Mantenimiento**: Las tarjetas de Bootstrap son fáciles de personalizar y mantener. Esto permitiría agregar nuevos platos de sushi o actualizar información existente de manera eficiente a medida que el menú cambia o evoluciona.
 
-### **Página de Reserva** 📅 
+### **Página de Reserva**
 
 La página de reserva de Katana Sushi permite a los clientes realizar reservas para disfrutar de una experiencia culinaria única. 
 
-**Mapa de Ubicación** 🗺️
+**Mapa de Ubicación**
 Se encuentra incluido un mapa que te permite ver la ubicación exacta del restaurante. Puedes encontrar el mapa a continuación:
 
 <iframe id="map"
@@ -174,7 +174,11 @@ Puedes acceder a esta página de reserva haciendo clic en el enlace "Reserva" en
 - Un video en blanco y negro de un cocinero preparando Sushi se reproduce automáticamente en la página principal.
     
     ![Gif Video About](img/img-readme/video-about.gif)
-    
+
+- Se puede observar un carrusel creado con Bootstrap y estilos adaptados con css.
+
+    ![Imagen About 4](img/img-readme/carrusel.png)
+
 
 - Se presentan secciones informativas sobre la filosofía del restaurante.
 
@@ -182,7 +186,7 @@ Puedes acceder a esta página de reserva haciendo clic en el enlace "Reserva" en
 
 ---
 
-## Instrucciones de Uso 📋 
+## Instrucciones de Uso
 
 Para ver el proyecto en acción, puedes acceder a la página web en línea visitando el siguiente enlace: [Katana Sushi - Restaurante Japonés](https://ladronbx.github.io/)
 
@@ -193,7 +197,7 @@ Si deseas ejecutar el proyecto localmente, sigue estos pasos:
 
 ---
 
-## Contribuciones 🤝 
+## Contribuciones
 
 Este proyecto es público y las contribuciones son bienvenidas. Si deseas contribuir, sigue estos pasos:
 
@@ -204,13 +208,13 @@ Este proyecto es público y las contribuciones son bienvenidas. Si deseas contri
 
 ---
 
-## Contacto 📧 
+## Contacto
 
 Si tienes preguntas, comentarios o sugerencias, no dudes en ponerte en contacto conmigo a través de [ladronbravovlc@gmail.com](mailto:tu_correo_electronico@gmail.com).
 
 ---
 
-## Enlace Github Pages  🌐 
+## Enlace Github Pages
 
 - [Página Web del Restaurante](https://ladronbx.github.io/)
 ---
