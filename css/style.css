@@ -233,7 +233,25 @@ p {
 
 
 
+/*Estilos carrusel*/
 
+#fondoCarrusel{
+    background-color:rgba(0, 0, 0, 0.43); 
+    margin: 0em;
+}
+
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    background-color: transparent;
+    color: #000; 
+  }
+
+  .carousel-control-prev:hover,
+  .carousel-control-next:hover {
+    color: #fff; 
+    background-color: transparent;
+  }
 
 
 
