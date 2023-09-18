@@ -23,11 +23,6 @@ nav {
 }
 
 
-#katana{
-    display: flex;
-    justify-content: end;
-}
-
 
 
 /*Estilos index.html*/
@@ -336,10 +331,8 @@ p {
 }
 
 
-#miCarrusel{
-    width: 35em;
-    margin: 1em;
-}
+
+
 
 
 
