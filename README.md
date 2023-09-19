@@ -198,7 +198,7 @@ Si deseas ejecutar el proyecto localmente, sigue estos pasos:
 ---
 
 ## Mejoras que me hubiese gustado integrar
-Me hubiese gustado integrar un mapa con Bootstrap. 
+Me hubiese gustado insertar un mapa con Bootstrap. Además no he conseguido que en vista móvil se cree un espacio entre cards por lo que en un futuro cuando aprenda lo integraré.
 
 ---
 
