@@ -198,7 +198,8 @@ Si deseas ejecutar el proyecto localmente, sigue estos pasos:
 ---
 
 ## Mejoras que me hubiese gustado integrar
-Me hubiese gustado insertar un mapa con Bootstrap. Además no he conseguido que en vista móvil se cree un espacio entre cards por lo que en un futuro cuando aprenda lo integraré.
+Lo primero es que habría que rectificar y reorganizar las páginas sushi.html, vinos.html, reserva.html y guardarlas en un directorio nuevo llamado pages. 
+También me hubiese gustado insertar un mapa con Bootstrap. Además no he conseguido que en vista móvil se cree un espacio entre cards por lo que en un futuro cuando aprenda lo integraré.
 
 ---
 
