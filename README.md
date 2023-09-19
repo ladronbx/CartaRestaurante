@@ -197,6 +197,11 @@ Si deseas ejecutar el proyecto localmente, sigue estos pasos:
 
 ---
 
+## Mejoras que me hubiese gustado integrar
+Me hubiese gustado integrar un mapa con Bootstrap. 
+
+---
+
 ## Contribuciones
 
 Este proyecto es público y las contribuciones son bienvenidas. Si deseas contribuir, sigue estos pasos:
@@ -210,7 +215,7 @@ Este proyecto es público y las contribuciones son bienvenidas. Si deseas contri
 
 ## Contacto
 
-Si tienes preguntas, comentarios o sugerencias, no dudes en ponerte en contacto conmigo a través de [ladronbravovlc@gmail.com](mailto:tu_correo_electronico@gmail.com).
+Si tienes preguntas, comentarios o sugerencias, no dudes en ponerte en contacto conmigo a través de [ladronbravovlc@gmail.com](mailto:ladronbravovlc@gmail.com).
 
 ---
 
