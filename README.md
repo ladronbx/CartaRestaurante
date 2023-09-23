@@ -3,7 +3,7 @@
 ---
 
 #  Katana Sushi - Restaurante Japonés
-🏯 [Katana Sushi - Restaurante Japonés](https://ladronbx.github.io/) 🏯
+🏯 [Katana Sushi - Restaurante Japonés](https://ladronbx.github.io/katanasushi/) 🏯
 
 **Primer proyecto del Bootcamp Full Stack Developer Presencial en la academia GeeksHubs en Valencia**
 
@@ -188,7 +188,7 @@ Puedes acceder a esta página de reserva haciendo clic en el enlace "Reserva" en
 
 ## Instrucciones de Uso
 
-Para ver el proyecto en acción, puedes acceder a la página web en línea visitando el siguiente enlace: [Katana Sushi - Restaurante Japonés](https://ladronbx.github.io/)
+Para ver el proyecto en acción, puedes acceder a la página web en línea visitando el siguiente enlace: [Katana Sushi - Restaurante Japonés](https://ladronbx.github.io/katanasushi/)
 
 Si deseas ejecutar el proyecto localmente, sigue estos pasos:
 
@@ -222,5 +222,5 @@ Si tienes preguntas, comentarios o sugerencias, no dudes en ponerte en contacto 
 
 ## Enlace Github Pages
 
-- [Página Web del Restaurante](https://ladronbx.github.io/)
+- [Página Web del Restaurante](https://ladronbx.github.io/katanasushi/)
 ---
